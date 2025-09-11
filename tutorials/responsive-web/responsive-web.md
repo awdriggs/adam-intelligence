@@ -94,9 +94,9 @@ If you want to change all the text sizes proportionally you can increase the bas
 
 ### Relative Units for Sizing
 Again, don't size elements as pixel values. This is too static. Instead we should use responsive units:
-- %, defines the size as a percent of the parent.
+- `%`, defines the size as a percent of the parent.
   - `width: 50%;` the elements width will be 50% of the parents width.
-- vw/vh, view width and view height come from the viewport size.
+- `vw` and `vh`, view width and view height come from the viewport size.
   - `width: 50vw;` the elements width will be 50% of the viewport.
 
 Even use rems!
@@ -162,13 +162,13 @@ There are some common patterns the people follow. [Here](https://medium.com/@dan
 I've made two simple examples for exploration. There is a live link and code for both.
 
 #1 - Basic Column Shift 
-- [demo](https://awdriggs.github.io/adam-intelligence/tutorials/responsive-web/examples/layout/index.html)
-- [html](./examples/layout-fluid/index.html)
+- [demo](./examples/layout-fluid/index.html)
+- [html](https://raw.githubusercontent.com/awdriggs/adam-intelligence/refs/heads/main/tutorials/responsive-web/examples/layout/index.html)
 - [css](./examples/layout-fluid/style.css)
 
 #2 - Fluid Layout using CSS Grid 
-- [demo](https://awdriggs.github.io/adam-intelligence/tutorials/responsive-web/examples/layout-fluid/index.html)
-- [html](./examples/layout-fluid/index.html)
+- [demo](./examples/layout-fluid/index.html)
+- [html](https://raw.githubusercontent.com/awdriggs/adam-intelligence/refs/heads/main/tutorials/responsive-web/examples/layout-fluid/index.html)
 - [css](./examples/layout-fluid/style.css)
 
 Flexbox lends itself really well to responsive design. You can switch your flex items from columns to rows among other things. 
@@ -177,7 +177,6 @@ CSS Grid is really powerful and great for responsive design and deserves a tutor
 
 ### Resources
 - [slides](./slides.pdf)
-- [recording]()
 - [fonts](https://css-tricks.com/accessible-font-sizing-explained/#aa-avoid-setting-a-base-font-size)
 - [clamp](https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/)
 - [List of Responsive Design Patterns](https://bradfrost.github.io/this-is-responsive/patterns.html)
