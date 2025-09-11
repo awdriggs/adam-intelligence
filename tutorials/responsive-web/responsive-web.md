@@ -31,7 +31,7 @@ To make this happen, we use a special type of CSS rule called a Media Query. Her
 The background color of the body will be updated once the browser's width is 768px or larger. The rule will stay in place unless it is overridden about another later rule.
 
 - [Demo](https://awdriggs.github.io/adam-intelligence/tutorials/responsive-web/examples/queries/index.html) 
-- [Code](./tutorials/responsive-web/examples/queries/style.css) 
+- [Code](/responsive-web/examples/queries/style.css) 
 
 ### Common Breakpoints
 Here are common ranges used for breakpoints
@@ -163,14 +163,29 @@ There are some common patterns the people follow. [Here](https://medium.com/@dan
 I've made two simple examples for exploration. There is a live link and code for both.
 
 #1 - Basic Column Shift 
-- [demo](./tutorials/responsive-web/examples/layout/index.html) 
-- [html](./tutorials/responsive-web/examples/layout/index.html)
-- [css](./tutorials/responsive-web/examples/layout/style.css)
+- [demo](https://awdriggs.github.io/adam-intelligence/tutorials/responsive-web/examples/layout/index.html)
+- [html](./responsive-web/examples/layout-fluid/index.html)
+- [css](./responsive-web/examples/layout-fluid/style.css)
+
+Flexbox lends itself really well to responsive design. You can switch your flex items from columns to rows among other things. 
+
+CSS Grid is really powerful and great for responsive design and deserves a tutorials on its own. I've linked to some resources below.
+
+### Resources
+- [slides](./slides.pdf)
+- [recording]()
+- [fonts](https://css-tricks.com/accessible-font-sizing-explained/#aa-avoid-setting-a-base-font-size)
+- [clamp](https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/)
+- [List of Responsive Design Patterns](https://bradfrost.github.io/this-is-responsive/patterns.html)
+- [Responsive Design with Flexbox](https://www.w3schools.com/css/css3_flexbox_responsive.asp)
+- [Interactive Guide to Grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)
+- [html](./responsive-web/examples/layout/index.html)
+- [css](./responsive-web/examples/layout/style.css)
 
 #2 - Fluid Layout using CSS Grid 
 - [demo](https://awdriggs.github.io/adam-intelligence/tutorials/responsive-web/examples/layout-fluid/index.html)
-- [html](./tutorials/responsive-web/examples/layout-fluid/index.html)
-- [css](./tutorials/responsive-web/examples/layout-fluid/style.css)
+- [html](./responsive-web/examples/layout-fluid/index.html)
+- [css](./responsive-web/examples/layout-fluid/style.css)
 
 Flexbox lends itself really well to responsive design. You can switch your flex items from columns to rows among other things. 
 
