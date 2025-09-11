@@ -1,9 +1,10 @@
 # Responsive Web Design
 
 Websites are viewed on all different sizes of screens from phones to laptops to large displays. When making a web page we do our best to make the page look great on any size display.
+
 With print design, the task is easier, we know the final size when designing a poster or layout. With web design, we must design the page to respond to size of the screen. 
-This is known as "Responsive Web Design" 
-We can achieve this using only CSS. The html structure and content of the page doesn't change.
+
+This is known as "Responsive Web Design". We can achieve this using only CSS. The html structure and content of the page doesn't change.
  
 There are three major CSS patterns that can use to achieve this.  
 - Media Queries
@@ -29,17 +30,18 @@ To make this happen, we use a special type of CSS rule called a Media Query. Her
 ```
 The background color of the body will be updated once the browser's width is 768px or larger. The rule will stay in place unless it is overridden about another later rule.
 
-[Here](./tutorials/responsive-web/examples/queries/) is an interactive demo. [Here](/tutorials/responsive-web/examples/queries/style.css) is the code that makes that happen.
+- [Demo](https://awdriggs.github.io/adam-intelligence/tutorials/responsive-web/examples/queries/index.html) 
+- [Code](./tutorials/responsive-web/examples/queries/style.css) 
 
 ### Common Breakpoints
 Here are common ranges used for breakpoints
 
-| Device Type  | Breakpoint Range | Examples | 
-| ------------- | ------------- |
-| Mobile | 320px - 480px | Smartphones (portrait) |
-| Tablet  | 481px - 768px |	Tablets (portrait), small laptops |
-| Small Desktop | 769px - 1024px | Tablets (landscape), smaller laptops |
-| Large Desktop | 1025px and up | Desktop monitors, larger laptops |
+| Device Type    | Breakpoint Range | Examples                                |
+| -------------- | ---------------- | ---------------------------------------- |
+| Mobile         | 320px – 480px    | Smartphones (portrait)                   |
+| Tablet         | 481px – 768px    | Tablets (portrait), small laptops        |
+| Small Desktop  | 769px – 1024px   | Tablets (landscape), smaller laptops     |
+| Large Desktop  | 1025px and up    | Desktop monitors, larger laptops         |
 
 [source](https://dev.to/gerryleonugroho/responsive-design-breakpoints-2025-playbook-53ih)
 
@@ -161,12 +163,12 @@ There are some common patterns the people follow. [Here](https://medium.com/@dan
 I've made two simple examples for exploration. There is a live link and code for both.
 
 #1 - Basic Column Shift 
-- [demo](./tutorials/responsive-web/examples/layout/) 
+- [demo](./tutorials/responsive-web/examples/layout/index.html) 
 - [html](./tutorials/responsive-web/examples/layout/index.html)
 - [css](./tutorials/responsive-web/examples/layout/style.css)
 
 #2 - Fluid Layout using CSS Grid 
-- [demo](./tutorials/responsive-web/examples/layout-fluid/) 
+- [demo](https://awdriggs.github.io/adam-intelligence/tutorials/responsive-web/examples/layout-fluid/index.html)
 - [html](./tutorials/responsive-web/examples/layout-fluid/index.html)
 - [css](./tutorials/responsive-web/examples/layout-fluid/style.css)
 
