@@ -29,9 +29,8 @@ To make this happen, we use a special type of CSS rule called a Media Query. Her
 }
 ```
 The background color of the body will be updated once the browser's width is 768px or larger. The rule will stay in place unless it is overridden about another later rule.
-
 - [Demo](https://awdriggs.github.io/adam-intelligence/tutorials/responsive-web/examples/queries/index.html) 
-- [Code](/responsive-web/examples/queries/style.css) 
+- [Code](./examples/queries/style.css) 
 
 ### Common Breakpoints
 Here are common ranges used for breakpoints
@@ -58,7 +57,7 @@ It is better to use *responsive units* that change based on what is happening on
 - `%`, defines the size as a percent of the parent
   - `font-size: 50%;` size will be 8px, 16 * 50% = 8
 
-[Try it out](https://codepen.io/awdriggs/pen/myeYRLK?editors=1100)
+**🚀 [Try it out](https://codepen.io/awdriggs/pen/myeYRLK?editors=1100)**
 
 For your page, choose your font sizes based on a proportional hierarchy.
 
@@ -104,7 +103,7 @@ Even use rems!
 - `rem`, Relative to font-size of the root element
   - `margin: 2rem;` margin will be 32px if html font-size is 16px
 
-[Try it out](https://codepen.io/awdriggs/pen/EaVzWbE)
+**🚀 [Try it out](https://codepen.io/awdriggs/pen/EaVzWbE)** 
 
 ### Dynamic View Height
 On mobile `vh` often ignores the browser bars, so its not accurate and could leave gaps. New mobile-friendly `vh` units solve this.
@@ -130,7 +129,7 @@ It is nice to control the minimum and maximum size so % base sizing doesn't get 
 - `min-width` sets the minimum size that an element can be.
   - `min-width: 500px`, element never gets smaller than 500px.
 
-[Try it out!](https://codepen.io/awdriggs/pen/LEpoWoa?editors=1100)
+**🚀 [Try it out!](https://codepen.io/awdriggs/pen/LEpoWoa?editors=1100)**
 
 ### Clamp
 Clamp is a newish CSS function, it picks a value that’s never smaller than min, never larger than max, and otherwise uses your preferred value.
@@ -164,28 +163,13 @@ I've made two simple examples for exploration. There is a live link and code for
 
 #1 - Basic Column Shift 
 - [demo](https://awdriggs.github.io/adam-intelligence/tutorials/responsive-web/examples/layout/index.html)
-- [html](./responsive-web/examples/layout-fluid/index.html)
-- [css](./responsive-web/examples/layout-fluid/style.css)
-
-Flexbox lends itself really well to responsive design. You can switch your flex items from columns to rows among other things. 
-
-CSS Grid is really powerful and great for responsive design and deserves a tutorials on its own. I've linked to some resources below.
-
-### Resources
-- [slides](./slides.pdf)
-- [recording]()
-- [fonts](https://css-tricks.com/accessible-font-sizing-explained/#aa-avoid-setting-a-base-font-size)
-- [clamp](https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/)
-- [List of Responsive Design Patterns](https://bradfrost.github.io/this-is-responsive/patterns.html)
-- [Responsive Design with Flexbox](https://www.w3schools.com/css/css3_flexbox_responsive.asp)
-- [Interactive Guide to Grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)
-- [html](./responsive-web/examples/layout/index.html)
-- [css](./responsive-web/examples/layout/style.css)
+- [html](./examples/layout-fluid/index.html)
+- [css](./examples/layout-fluid/style.css)
 
 #2 - Fluid Layout using CSS Grid 
 - [demo](https://awdriggs.github.io/adam-intelligence/tutorials/responsive-web/examples/layout-fluid/index.html)
-- [html](./responsive-web/examples/layout-fluid/index.html)
-- [css](./responsive-web/examples/layout-fluid/style.css)
+- [html](./examples/layout-fluid/index.html)
+- [css](./examples/layout-fluid/style.css)
 
 Flexbox lends itself really well to responsive design. You can switch your flex items from columns to rows among other things. 
 
