@@ -162,7 +162,7 @@ There are some common patterns the people follow. [Here](https://medium.com/@dan
 I've made two simple examples for exploration. There is a live link and code for both.
 
 #1 - Basic Column Shift 
-- [demo](./examples/layout-fluid/index.html)
+- [demo](./examples/layout/index.html)
 - [html](https://raw.githubusercontent.com/awdriggs/adam-intelligence/refs/heads/main/tutorials/responsive-web/examples/layout/index.html)
 - [css](./examples/layout-fluid/style.css)
 
