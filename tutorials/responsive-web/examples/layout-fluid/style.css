@@ -1,0 +1,84 @@
+/* resets */
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; font-family: system-ui, sans-serif; }
+
+
+/* center the card on the page */
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  display: grid;
+
+  margin: 0 auto;
+
+  background: pink;
+
+  /* using grid here! its the best */
+  display: grid;
+  gap: 0;
+  /* mobile-first layout (stacked) */
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr 2fr;
+  grid-template-areas:
+  "toolbar"
+  "rail"
+  "main"
+}
+
+/* blocks (colors chosen to echo your mock) */
+.toolbar {
+  grid-area: toolbar; background: #d7d7d7;
+}
+
+.rail {
+  grid-area: rail; background: #a4c43c;
+}
+
+.primary {
+  grid-area: main;
+  background: #6ea34b; min-height: 30vh;
+}
+.secondary {
+  display: none; /*hide on mobile*/
+  grid-area: aside;
+  background: #d7e5b6;
+  min-height: 16vh;
+}
+
+/* tablet+ */
+@media (min-width: 768px) {
+
+  .wrapper{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 2fr 1fr;
+    grid-template-areas:
+    "toolbar"
+    "rail"
+    "main"
+    "aside"
+  }
+   
+  .secondary {
+    display: block;
+  }
+}
+
+/* desktop+ */
+@media (min-width: 1024px){
+  .wrapper{
+    padding: 1rem;
+    max-width: 1024px;
+    margin: 0 auto;
+
+    gap: 1rem; 
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: auto 2fr 1fr;
+    grid-template-areas:
+    "toolbar toolbar"
+    "rail main"
+    "rail aside"
+  }
+}
+
+
+

@@ -1,0 +1,42 @@
+/* basic rules go at the start of the css page! */
+body {
+  /* blue */
+  background-color: #086788;
+  color: white;
+}
+
+/* media queries, applied only at certain sizes */
+/* override any rules set previously */
+/* add new rules to any */ 
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+
+  body {
+    /* yellowish */
+    background-color: #f0c808;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  body {
+    /* red */
+    background-color: #dd1c1aff;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  body {
+    /* whitish */
+    background-color: #fff1d0ff;
+  }
+
+}
+

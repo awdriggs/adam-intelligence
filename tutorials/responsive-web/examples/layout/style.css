@@ -1,0 +1,100 @@
+/* make it look good on mobile first! */
+/* base rules for the whole project */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Young Serif", serif;
+  background-color: #A59132; 
+  color: #30362F;  
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #DA7422;
+  margin: 0;
+}
+
+a, a:visited {
+  color: #D00000;
+  text-decoration: none;
+}
+
+.page-wrapper {
+  background-color: #eeeeef;
+  padding: 1rem;
+}
+
+.page-title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.about {
+  padding: 1rem;
+  background-color: #DA7422;
+  color: #FFFBDB;  
+  border-radius: 10px;
+}
+
+.about h2 {
+  color: #FFFBDB;  
+}
+
+.card-img {
+  width: 100%; /* responsive units! */
+}
+
+.card {
+  background-color: #FFFBDB;  
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+}
+
+.cta {
+  display: block;
+  font-size: 1.75rem;
+  text-align: center;
+  width: 100%;
+  background-color: #D00000;
+  color: #FFF;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.page-footer {
+  text-align: center;
+}
+
+/* media query! */
+
+@media only screen and (min-width: 768px) {
+  .about {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1rem;
+    height: 50vh;
+  }
+
+  .gallery {
+    width: calc(60% - 2rem);
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .card {
+    margin-top: 0;
+  }
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .page-wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}
