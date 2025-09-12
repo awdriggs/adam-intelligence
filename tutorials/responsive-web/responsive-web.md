@@ -177,6 +177,7 @@ CSS Grid is really powerful and great for responsive design and deserves a tutor
 
 ### Resources
 - [slides](./slides.pdf)
+- [video](https://nyu.zoom.us/rec/share/GEvrGIVLDaFcyd262SXoXXL0FJnOyZQShBeiYj0YpRfngo2E_gSTtaTf1aXa8fTa.sNqqscwtRLfUQvuJ) - NYU Login Required
 - [fonts](https://css-tricks.com/accessible-font-sizing-explained/#aa-avoid-setting-a-base-font-size)
 - [clamp](https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/)
 - [List of Responsive Design Patterns](https://bradfrost.github.io/this-is-responsive/patterns.html)
